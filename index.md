@@ -9,7 +9,6 @@
 ### Architecture
 ![Image](Neural-Video-Coding/images/NVC.pdf)
 
-
 # Header 1
 ## Header 2
 ### Header 3
