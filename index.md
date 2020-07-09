@@ -25,13 +25,13 @@ The proposed PA engine for neuro-Motion consists of  a spatio-temporal-hyper agg
 
 <div align=center><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/entropy_model.png" width="700px" /></div>
 
-## Rate-Distortion Performance (PSNR & MS-SSIM)
-#PSNR  vs.  Rate  Performance
+### Rate-Distortion Performance (PSNR & MS-SSIM)
+## PSNR  vs.  Rate  Performance
 
 <img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/ClassB_PSNR.png" width="300px" ><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/ClassC_PSNR.png" width="300px" /><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/ClassD_PSNR.png" width="300px" ><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/ClassE_PSNR.png" width="300px" ><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/UVG_PSNR.png" width="300px" ><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/average_PSNR.png" width="300px" >
 
 
-#MS-SSIM  vs.  Rate  Performance
+## MS-SSIM  vs.  Rate  Performance
 
 <img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/ClassB.png" width="300px" ><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/ClassC.png" width="300px" /><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/ClassD.png" width="300px" ><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/ClassE.png" width="300px" ><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/UVG.png" width="300px" ><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/overall.png" width="300px" >
 
