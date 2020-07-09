@@ -52,11 +52,16 @@ The proposed PA engine for neuro-Motion consists of  a spatio-temporal-hyper agg
 
 The code and model will be released gradually.
 
-a) Intra model (baseline). [](yun.nju.edu.cn)
-b) Intra model (Outperform VVC). [](yun.nju.edu.cn)
-c) Inter model (Multi-scale). [](yun.nju.edu.cn)
-d) Inter model (++ Spatiotemporal Context Model). [](yun.nju.edu.cn)
-e) Residual model. [](yun.nju.edu.cn)
-f) C++ implementation of seperate encoder and decoder using arithmetic coding. [](yun.nju.edu.cn)
+a)  [Intra model (baseline).](yun.nju.edu.cn)
+
+b)  [Intra model (Outperform VVC).](yun.nju.edu.cn)
+
+c)  [Inter model (Multi-scale).](yun.nju.edu.cn)
+
+d)  [Inter model (++ Spatiotemporal Context Model).](yun.nju.edu.cn)
+
+e)  [Residual model.](yun.nju.edu.cn)
+
+f)  [C++ implementation of seperate encoder and decoder using arithmetic coding.](yun.nju.edu.cn)
 
 
