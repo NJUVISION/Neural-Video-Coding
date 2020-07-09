@@ -38,11 +38,11 @@ The proposed PA engine for neuro-Motion consists of  a spatio-temporal-hyper agg
 
 ### MS-SSIM  vs.  Rate  Performance
 
-<img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassB.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassC.png" width="300px" /><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassD.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassE.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/UVG.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/overall.png" width="300px" >
+<img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassB.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassC.png" width="300px" /><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassD.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassE.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/UVG.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/overall.png" width="300px" >
 
 ## BD-Rate Reduction (PSNR & MS-SSIM)
 
-<div align=center><img src="https:/njuvision.github.io/Neural-Video-Coding/images/bdrate.png" width="1000px" ></div>
+<div align=center><img src="https://njuvision.github.io/Neural-Video-Coding/images/bdrate.png" width="1000px" ></div>
 
 ## Visual Comparison
 
