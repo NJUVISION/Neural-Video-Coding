@@ -11,9 +11,12 @@ Our NVC framework is designed for low-delay applications.As with all modern vide
 ![Image](https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/NVC.png)
 
 ### Pyramid Decoder and Multiscale Motion Compensation
-We apply the pyramid flow decoder in the neuro-Motion and generate the multiscale compressed flows. Then we use multiscale motion compensation (coarse-to-fine warping in feature domain) to obtain the predicted frame.
+We apply the pyramid flow decoder in the neuro-Motion and generate the multiscale compressed flows. Then we use multiscale motion compensation (coarse-to-fine warping both in feature and pixel domain) to obtain the predicted frame.
 
 ![Image](https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/flow_coding_multi_scale.png)
+
+### Adaptive Spatiotemporal Context Modeling for Entropy Coding
+
 # Header 1
 ## Header 2
 ### Header 3
