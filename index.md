@@ -10,6 +10,8 @@
 Our NVC framework is designed for low-delay applications.As with all modern video encoders, the proposed NVC com-presses  the  first  frame  in  each  group  of  pictures  as  an  intra-frame using a VAE based compression engine (neuro-Intra). Itcodes remaining frames using motion compensated prediction. It  uses  the  VAE  compressor  (neuro-Motion)  to  generate  the  multiscale  motion  field  between  thecurrent frame and the reference frame. Then, MS-MCN takesmultiscale compressed flows, warps the multiscale features ofthe  reference  frame,  and  combines  these  warped  features  togenerate  the  predicted  frame.  The  prediction  residual  is  thencoded using another VAE-based compressor (neuro-Res).
 ![Image](https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/NVC.png)
 
+### Variational Autoencoder with (Spatiotemporal and hyper) Prior Aggregation Engine (PA) 
+
 ### Pyramid Decoder and Multiscale Motion Compensation
 We apply the pyramid flow decoder in the neuro-Motion and generate the multiscale compressed flows. Then we use multiscale motion compensation (coarse-to-fine warping both in feature and pixel domain) to obtain the predicted frame.
 
