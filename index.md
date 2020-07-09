@@ -46,7 +46,7 @@ The proposed PA engine for neuro-Motion consists of  a spatio-temporal-hyper agg
 
 ## Visual Comparison
 
-<div align=center><img src="https://njuvision.github.io/Neural-Video-Coding/images/visual_comparison.png"  ></div>
+<div align=center><img src="https://njuvision.github.io/Neural-Video-Coding/images/visual_comparison.png" width="800px" ></div>
 
 ## Code and Model 
 
