@@ -73,7 +73,6 @@ More interseting works can be found in our [NJU Vision LAB](http://vision.nju.ed
 If you find our paper useful, please cite:
 
 
-
 ## Contact
 
 You can contact Haojie Liu by sending mail to [haojie@smail.nju.edu.cn](haojie@smail.nju.edu.cn)
