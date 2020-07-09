@@ -16,66 +16,66 @@
 
 ## <center>Variational Autoencoder with (Spatiotemporal and hyper) Prior Aggregation (PA) Engine </center>
 
-  The  general  architecture  of  the  avriational autoencoder VAE with prior aggregation. Here, the PA engine aggergates spatiotemporal and hyper prior based on Gaussian distribution for entropy coding.
+  <center>The  general  architecture  of  the  avriational autoencoder VAE with prior aggregation. Here, the PA engine aggergates spatiotemporal and hyper prior based on Gaussian distribution for entropy coding.</center>
 ![Image](https://njuvision.github.io/Neural-Video-Coding/images/vae.png)
 
-## Pyramid Decoder and Multiscale Motion Compensation
+## <center>Pyramid Decoder and Multiscale Motion Compensation</center>
 
-  We apply the pyramid flow decoder in the neuro-Motion and generate the multiscale compressed flows. Then we use multiscale motion compensation (coarse-to-fine warping both in feature and pixel domain) to obtain the predicted frame.
+  <center>We apply the pyramid flow decoder in the neuro-Motion and generate the multiscale compressed flows. Then we use multiscale motion compensation (coarse-to-fine warping both in feature and pixel domain) to obtain the predicted frame.</center>
 
 ![Image](https://njuvision.github.io/Neural-Video-Coding/images/flow_coding_multi_scale.png)
 
-## Adaptive Spatiotemporal Context Modeling for Entropy Coding
+## <center>Adaptive Spatiotemporal Context Modeling for Entropy Coding</center>
 
-  The proposed PA engine for neuro-Motion consists of  a spatio-temporal-hyper aggregation module (STHAM)  and a it temporal updating module (TUM). At timestamp $t$, STHAM accumulates all the accessible priors and estimate the mean and standard deviation of the assumed Gaussian distribution for each new quantized motion feature. To generate the temporal priors, TUM is applied to current quantized features recurrently using a standard ConvLSTM.</center>
+  <center>The proposed PA engine for neuro-Motion consists of  a spatio-temporal-hyper aggregation module (STHAM)  and a it temporal updating module (TUM). At timestamp $t$, STHAM accumulates all the accessible priors and estimate the mean and standard deviation of the assumed Gaussian distribution for each new quantized motion feature. To generate the temporal priors, TUM is applied to current quantized features recurrently using a standard ConvLSTM.</center>
 
 
   <img src="https://njuvision.github.io/Neural-Video-Coding/images/entropy_model.png" width="700px" />
 
-## Rate-Distortion Performance (PSNR & MS-SSIM)
-### PSNR  vs.  Rate  Performance
+## <center>Rate-Distortion Performance (PSNR & MS-SSIM)</center>
+### <center>PSNR  vs.  Rate  Performance</center>
 
   <img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassB_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassC_PSNR.png" width="300px" /><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassD_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassE_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/UVG_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/average_PSNR.png" width="300px" >
 
 
-### MS-SSIM  vs.  Rate  Performance
+### <center>MS-SSIM  vs.  Rate  Performance</center>
 
 <img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassB.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassC.png" width="300px" /><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassD.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassE.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/UVG.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/overall.png" width="300px" >
 
-## BD-Rate Reduction (PSNR & MS-SSIM)
+## <center>BD-Rate Reduction (PSNR & MS-SSIM)</center>
 
 <img src="https://njuvision.github.io/Neural-Video-Coding/images/bdrate.png" width="1000px" >
 
-## Visual Comparison
+## <center>Visual Comparison</center>
 
 <img src="https://njuvision.github.io/Neural-Video-Coding/images/visual_comparison.png" width="800px" >
 
 
-## Code and Model
+## <center>Code and Model</center>
 
-The code and model will be released gradually.
+<center>The code and model will be released gradually.</center>
 
-a)  [Intra model (baseline).](yun.nju.edu.cn)
+<center>a)  [Intra model (baseline).](yun.nju.edu.cn)</center>
 
-b)  [Intra model (Outperform VVC).](yun.nju.edu.cn)
+<center>b)  [Intra model (Outperform VVC).](yun.nju.edu.cn)</center>
 
-c)  [Inter model (Multi-scale).](yun.nju.edu.cn)
+<center>c)  [Inter model (Multi-scale).](yun.nju.edu.cn)</center>
 
-d)  [Inter model (++ Spatiotemporal Context Model).](yun.nju.edu.cn)
+<center>d)  [Inter model (++ Spatiotemporal Context Model).](yun.nju.edu.cn)</center>
 
-e)  [Residual model.](yun.nju.edu.cn)
+<center>e)  [Residual model.](yun.nju.edu.cn)</center>
 
-f)  [C++ implementation of seperate encoder and decoder using arithmetic coding.](yun.nju.edu.cn)
+<center>f)  [C++ implementation of seperate encoder and decoder using arithmetic coding.](yun.nju.edu.cn)</center>
 
-## Acknowledgement
+## <center>Acknowledgement</center>
 
-  More interseting works can be found in our [NJU Vision LAB](http://vision.nju.edu.cn) homepage.
+  <center>More interseting works can be found in our [NJU Vision LAB](http://vision.nju.edu.cn) homepage.</center>
 
-## Citation
+## <center>Citation</center>
 
-  If you find our paper useful, please cite:
+  <center>If you find our paper useful, please cite:</center>
 
 
-## Contact
+## <center>Contact</center>
 
-  You can contact Haojie Liu by sending mail to [haojie@smail.nju.edu.cn](haojie@smail.nju.edu.cn)
+  <center>You can contact Haojie Liu by sending mail to [haojie@smail.nju.edu.cn](haojie@smail.nju.edu.cn)</center>
