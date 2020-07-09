@@ -6,9 +6,7 @@ Haojie Liu, Ming Lu, Zhan Ma, Fan Wang, Zhihuang Xie, Xun Cao and Yao Wang
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It incl
 Syntax highlighted code block
 
 # Header 1
