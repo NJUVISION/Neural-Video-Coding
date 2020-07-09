@@ -11,7 +11,7 @@ Our NVC framework is designed for low-delay applications.As with all modern vide
 ![Image](https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/NVC.png)
 
 ### Pyramid Decoder and Multiscale Motion Compensation
-
+![Image](https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/flow_coding_multi_scale.png)
 # Header 1
 ## Header 2
 ### Header 3
