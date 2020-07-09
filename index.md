@@ -16,37 +16,37 @@ Our NVC framework is designed for low-delay applications.As with all modern vide
 ## Variational Autoencoder with (Spatiotemporal and hyper) Prior Aggregation (PA) Engine 
 
 The  general  architecture  of  the  avriational autoencoder VAE with prior aggregation. Here, the PA engine aggergates spatiotemporal and hyper prior based on Gaussian distribution for entropy coding.
-![Image](https://https://njuvision.github.io/Neural-Video-Coding/images/vae.png)
+![Image](https://njuvision.github.io/Neural-Video-Coding/images/vae.png)
 
 ## Pyramid Decoder and Multiscale Motion Compensation
 We apply the pyramid flow decoder in the neuro-Motion and generate the multiscale compressed flows. Then we use multiscale motion compensation (coarse-to-fine warping both in feature and pixel domain) to obtain the predicted frame.
 
-![Image](https://https://njuvision.github.io/Neural-Video-Coding/images/flow_coding_multi_scale.png)
+![Image](https://njuvision.github.io/Neural-Video-Coding/images/flow_coding_multi_scale.png)
 
 ## Adaptive Spatiotemporal Context Modeling for Entropy Coding
 
 The proposed PA engine for neuro-Motion consists of  a spatio-temporal-hyper aggregation module (STHAM)  and a it temporal updating module (TUM). At timestamp $t$, STHAM accumulates all the accessible priors and estimate the mean and standard deviation of the assumed Gaussian distribution for each new quantized motion feature. To generate the temporal priors, TUM is applied to current quantized features recurrently using a standard ConvLSTM.
 
 
-<div align=center><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/entropy_model.png" width="700px" /></div>
+<div align=center><img src="https://njuvision.github.io/Neural-Video-Coding/images/entropy_model.png" width="700px" /></div>
 
 ## Rate-Distortion Performance (PSNR & MS-SSIM)
 ### PSNR  vs.  Rate  Performance
 
-<img src="https://https://njuvision.github.io/Neural-Video-Coding/images/ClassB_PSNR.png" width="300px" ><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/ClassC_PSNR.png" width="300px" /><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/ClassD_PSNR.png" width="300px" ><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/ClassE_PSNR.png" width="300px" ><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/UVG_PSNR.png" width="300px" ><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/average_PSNR.png" width="300px" >
+<img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassB_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassC_PSNR.png" width="300px" /><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassD_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassE_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/UVG_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/average_PSNR.png" width="300px" >
 
 
 ### MS-SSIM  vs.  Rate  Performance
 
-<img src="https://https://njuvision.github.io/Neural-Video-Coding/images/ClassB.png" width="300px" ><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/ClassC.png" width="300px" /><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/ClassD.png" width="300px" ><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/ClassE.png" width="300px" ><img src="https://https://njuvision.github.io/Neural-Video-Coding/UVG.png" width="300px" ><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/overall.png" width="300px" >
+<img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassB.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassC.png" width="300px" /><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassD.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassE.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/UVG.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/overall.png" width="300px" >
 
 ## BD-Rate Reduction (PSNR & MS-SSIM)
 
-<div align=center><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/bdrate.png" width="1000px" ></div>
+<div align=center><img src="https:/njuvision.github.io/Neural-Video-Coding/images/bdrate.png" width="1000px" ></div>
 
 ## Visual Comparison
 
-<div align=center><img src="https://https://njuvision.github.io/Neural-Video-Coding/images/visual_comparison.png"  ></div>
+<div align=center><img src="https://njuvision.github.io/Neural-Video-Coding/images/visual_comparison.png"  ></div>
 
 ## Code and Model 
 
