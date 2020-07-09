@@ -1,4 +1,4 @@
-<center># Neural Video Coding using Multiscale Motion Compensation  and Spatiotemporal Context Model</center>
+# <center>Neural Video Coding using Multiscale Motion Compensation  and Spatiotemporal Context Model</center>
 
   <center><sup>1</sup> Haojie Liu, <sup>1</sup> Ming Lu, <sup>1</sup> Zhan Ma, <sup>2</sup> Fan Wang, <sup>2</sup> Zhihuang Xie, <sup>1</sup> Xun Cao and <sup>3</sup> Yao Wang</center>
 
