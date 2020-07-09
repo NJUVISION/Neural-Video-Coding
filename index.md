@@ -42,11 +42,11 @@ The proposed PA engine for neuro-Motion consists of  a spatio-temporal-hyper agg
 
 ## BD-Rate Reduction (PSNR & MS-SSIM)
 
-<div align=center><img src="https://njuvision.github.io/Neural-Video-Coding/images/bdrate.png" width="1000px" ></div>
+<img src="https://njuvision.github.io/Neural-Video-Coding/images/bdrate.png" width="1000px" >
 
 ## Visual Comparison
 
-<div align=center><img src="https://njuvision.github.io/Neural-Video-Coding/images/visual_comparison.png" width="800px" ></div>
+<img src="https://njuvision.github.io/Neural-Video-Coding/images/visual_comparison.png" width="800px" >
 
 
 ## Code and Model 
