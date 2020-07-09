@@ -74,6 +74,32 @@ This work is based on several published works from our lab.
 
 If you find our paper useful, please cite:
 
+A published version in CVPR workshop.
+
+@inproceedings{liu2019practical,
+  title={Practical Stacked Non-local Attention Modules for Image Compression.},
+  author={Liu, Haojie and Chen, Tong and Shen, Qiu and Ma, Zhan},
+  booktitle={CVPR Workshops},
+  pages={0},
+  year={2019}
+}
+
+@article{chen2019neural,
+  title={Neural image compression via non-local attention optimization and improved context modeling},
+  author={Chen, Tong and Liu, Haojie and Ma, Zhan and Shen, Qiu and Cao, Xun and Wang, Yao},
+  journal={arXiv preprint arXiv:1910.06244},
+  year={2019}
+}
+
+A published version in AAAI2020.
+
+@article{liu2019learned,
+  title={Learned video compression via joint Spatial-Temporal correlation exploration},
+  author={Liu, Haojie and Huang, Lichao and Lu, Ming and Chen, Tong and Ma, Zhan and others},
+  journal={arXiv preprint arXiv:1912.06348},
+  year={2019}
+}
+
 ## Contact
 
 You can contact Haojie Liu by sending mail to [haojie@smail.nju.edu.cn](haojie@smail.nju.edu.cn)
