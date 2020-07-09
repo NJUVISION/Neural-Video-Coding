@@ -12,11 +12,13 @@
 ## <center>Architecture</center>
 
   <center>Our NVC framework is designed for low-delay applications.As with all modern video encoders, the proposed NVC com-presses  the  first  frame  in  each  group  of  pictures  as  an  intra-frame using a VAE based compression engine (neuro-Intra). Itcodes remaining frames using motion compensated prediction. It  uses  the  VAE  compressor  (neuro-Motion)  to  generate  the  multiscale  motion  field  between  thecurrent frame and the reference frame. Then, MS-MCN takesmultiscale compressed flows, warps the multiscale features ofthe  reference  frame,  and  combines  these  warped  features  togenerate  the  predicted  frame.  The  prediction  residual  is  thencoded using another VAE-based compressor (neuro-Res).</center>
+  
  ![Image](https://njuvision.github.io/Neural-Video-Coding/images/NVC.png)
 
 ## <center>Variational Autoencoder with (Spatiotemporal and hyper) Prior Aggregation (PA) Engine </center>
 
   <center>The  general  architecture  of  the  avriational autoencoder VAE with prior aggregation. Here, the PA engine aggergates spatiotemporal and hyper prior based on Gaussian distribution for entropy coding.</center>
+  
 ![Image](https://njuvision.github.io/Neural-Video-Coding/images/vae.png)
 
 ## <center>Pyramid Decoder and Multiscale Motion Compensation</center>
@@ -33,6 +35,7 @@
   <img src="https://njuvision.github.io/Neural-Video-Coding/images/entropy_model.png" width="700px" />
 
 ## <center>Rate-Distortion Performance (PSNR & MS-SSIM)</center>
+
 ### <center>PSNR  vs.  Rate  Performance</center>
 
   <img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassB_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassC_PSNR.png" width="300px" /><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassD_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/ClassE_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/UVG_PSNR.png" width="300px" ><img src="https://njuvision.github.io/Neural-Video-Coding/images/average_PSNR.png" width="300px" >
