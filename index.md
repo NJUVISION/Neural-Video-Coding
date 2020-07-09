@@ -64,4 +64,16 @@ e)  [Residual model.](yun.nju.edu.cn)
 
 f)  [C++ implementation of seperate encoder and decoder using arithmetic coding.](yun.nju.edu.cn)
 
+## Acknowledgement
 
+More interseting works can be found in our [NJU Vision LAB](vision.nju.edu.cn) homepage
+
+## Citation
+
+This work is based on several published works from our lab.
+
+If you find our paper useful, please cite:
+
+## Contact
+
+You can contact Haojie Liu by sending mail to [haojie@smail.nju.edu.cn](haojie@smail.nju.edu.cn)
