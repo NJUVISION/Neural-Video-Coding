@@ -17,6 +17,7 @@ We apply the pyramid flow decoder in the neuro-Motion and generate the multiscal
 
 ### Adaptive Spatiotemporal Context Modeling for Entropy Coding
 
+![Image](https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/entropy_model.png)
 # Header 1
 ## Header 2
 ### Header 3
