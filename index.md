@@ -28,7 +28,7 @@ We apply the pyramid flow decoder in the neuro-Motion and generate the multiscal
 The proposed PA engine for neuro-Motion consists of  a spatio-temporal-hyper aggregation module (STHAM)  and a it temporal updating module (TUM). At timestamp $t$, STHAM accumulates all the accessible priors and estimate the mean and standard deviation of the assumed Gaussian distribution for each new quantized motion feature. To generate the temporal priors, TUM is applied to current quantized features recurrently using a standard ConvLSTM.
 
 
-<div align=center><img src="https://njuvision.github.io/Neural-Video-Coding/images/entropy_model.png" width="700px" /></div>
+<img src="https://njuvision.github.io/Neural-Video-Coding/images/entropy_model.png" width="700px" />
 
 ## Rate-Distortion Performance (PSNR & MS-SSIM)
 ### PSNR  vs.  Rate  Performance
