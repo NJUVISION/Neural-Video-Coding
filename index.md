@@ -2,7 +2,7 @@
 
 <sup>1</sup> Haojie Liu, <sup>1</sup> Ming Lu, <sup>1</sup> Zhan Ma, <sup>2</sup> Fan Wang, <sup>2</sup> Zhihuang Xie, <sup>1</sup> Xun Cao and <sup>3</sup> Yao Wang
 
-<center><sup>1</sup> Nanjing University, <sup>2</sup> OPPO.Inc, <sup>3</sup> New York University</center>
+<center>{<sup>1</sup> Nanjing University, <sup>2</sup> OPPO.Inc, <sup>3</sup> New York University}</center>
 
 ## Introduction
 
