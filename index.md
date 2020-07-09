@@ -16,6 +16,8 @@ We apply the pyramid flow decoder in the neuro-Motion and generate the multiscal
 ![Image](https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/flow_coding_multi_scale.png)
 
 ### Adaptive Spatiotemporal Context Modeling for Entropy Coding
+The proposed PA engine for neuro-Motion consists of  a {\it spatio-temporal-hyper aggregation module} (STHAM)  and a {\it temporal updating module} (TUM), shown in Fig.~\ref{fig:entropy_model}. At timestamp $t$, STHAM accumulates all the accessible priors and estimate the mean and standard deviation of the assumed Gaussian distribution for each new quantized motion feature
+
 
 <div align=center><img src="https://github.com/NJUVISION/Neural-Video-Coding/blob/master/images/entropy_model.png" width="700px" /></div>
 # Header 1
